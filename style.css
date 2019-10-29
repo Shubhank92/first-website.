@@ -1,0 +1,38 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+	background: url(header.jpg) no-repeat center center fixed;
+}
+.btn-xl {
+	padding: 1em 3em;
+	border-radius: 500px;
+	font-weight: 750px;
+}
+.btn {
+	background-color: crimson;
+	border-color: crimson;
+	transition: all 1s;
+	border: solid 3px transparent;
+}
+.btn-primary:hover {
+	background-color: crimson;
+	border-color: crimson;
+	border-width: solid 3px;
+	transform: scale(1.1);
+}
+
+h1 {
+	color: white;
+}
+hr {
+	border-color: crimson;
+	border-width: 3px;
+	width: 100px;
+}
+.buffer {
+	height: 145px;
+}
